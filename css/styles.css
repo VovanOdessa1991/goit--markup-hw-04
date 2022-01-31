@@ -285,7 +285,7 @@ img {
 .examples-image {
   width: var(--width-card-thick);
 }
-/*      We         */
+/*      !We         */
 .we {
   background-color: var(--background-second-color);
   padding-top: var(--margin-padding-witch-block);
