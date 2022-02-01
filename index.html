@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header overlay">
       <div class="container flex">
         <nav class="header-nav flex">
           <a class="logo" href="index.html"><span class="logo-first-color">Web</span>Studio</a>
@@ -36,44 +36,78 @@
         </nav>
         <ul class="header-list flex">
           <li class="header-item">
-            <a class="header-item-link" href="mailto:info@devstudio.com">info@devstudio.com </a>
+            <a class="header-item-link" href="mailto:info@devstudio.com">
+              <span class="header-item-mail">
+                <svg class="header-item-mail-icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-email"></use>
+                </svg>
+              </span>
+              info@devstudio.com
+            </a>
           </li>
           <li class="header-item">
-            <a class="header-item-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="header-item-link" href="tel:+380961111111">
+              <span class="header-item-mail">
+                <svg class="header-item-mail-icon" width="16" height="12">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+              </span>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
     </header>
     <main class="main">
-      <section class="hero">
+      <section class="hero overlay">
         <div class="container">
           <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <button class="bottom hero-button" type="button">Заказать услугу</button>
         </div>
       </section>
 
-      <section class="doing">
+      <section class="doing overlay">
         <div class="container">
           <ul class="doing-list flex">
             <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
               <h3 class="doing-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
               <p class="doing-item-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-watch"></use>
+                </svg>
+              </div>
               <h3 class="doing-item-title">ПУНКТУАЛЬНОСТЬ</h3>
               <p class="doing-item-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-pcdiagram"></use>
+                </svg>
+              </div>
               <h3 class="doing-item-title">ПЛАНИРОВАНИЕ</h3>
               <p class="doing-item-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="doing-item">
+              <div class="doing-icon-container flex">
+                <svg class="doing-icon" width="70" height="70">
+                  <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="doing-item-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
               <p class="doing-item-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -104,7 +138,7 @@
         </div>
       </section>
 
-      <section class="we">
+      <section class="we overlay">
         <div class="container">
           <h2 class="we-title">Наша команда</h2>
           <ul class="we-list flex">
@@ -113,6 +147,39 @@
               <div class="we-item-div">
                 <h3 class="we-item-title">Игорь Демьяненко</h3>
                 <p class="we-item-text" lang="en">Product Designer</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="we-item">
@@ -120,6 +187,39 @@
               <div class="we-item-div">
                 <h3 class="we-item-title">Ольга Репина</h3>
                 <p class="we-item-text" lang="en">Frontend Developer</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="we-item">
@@ -127,6 +227,39 @@
               <div class="we-item-div">
                 <h3 class="we-item-title">Николай Тарасов</h3>
                 <p class="we-item-text" lang="en">Marketing</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="we-item">
@@ -134,13 +267,46 @@
               <div class="we-item-div">
                 <h3 class="we-item-title">Михаил Ермаков</h3>
                 <p class="we-item-text" lang="en">UI Designer</p>
+                <ul class="we-item-list flex">
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li class="we-item-item">
+                    <a href="#" class="we-item-social-link flex">
+                      <svg class="we-item-social-icon" width="20" height="20">
+                        <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer overlay">
       <div class="container">
         <a class="footer-logo" href="index.html"><span class="logo-first-color">Web</span>Studio</a>
         <address>
