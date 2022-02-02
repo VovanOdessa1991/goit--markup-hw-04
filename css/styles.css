@@ -160,12 +160,12 @@ img {
 
 .footer {
   background-color: var(--footer-background-color);
-  padding-top: var(--padding-footer);
+
   padding-bottom: var(--padding-footer);
 }
 .footer-flex {
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 .footer-logo {
   text-decoration: none;
@@ -181,10 +181,12 @@ img {
   margin-bottom: 20px;
 }
 .test {
+  padding-top: var(--padding-footer);
   max-width: 231px;
   margin-right: 70px;
 }
 .connect {
+  padding-top: 75px;
   width: 206px;
 }
 .connect-title {
