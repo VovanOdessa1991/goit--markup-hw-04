@@ -2,6 +2,7 @@
   /* !SVG */
   --svg-first-color: #afb1b8;
   --svg-hover-color: #ffffff;
+  --svg-hover-color2: #2196f3;
   /* !Logo */
   --logo-first-color: #2196f3;
   --logo-second-color: #000000;
@@ -160,12 +161,12 @@ img {
 
 .footer {
   background-color: var(--footer-background-color);
-
+  padding-top: var(--padding-footer);
   padding-bottom: var(--padding-footer);
 }
 .footer-flex {
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: baseline;
 }
 .footer-logo {
   text-decoration: none;
@@ -181,12 +182,10 @@ img {
   margin-bottom: 20px;
 }
 .test {
-  padding-top: var(--padding-footer);
   max-width: 231px;
   margin-right: 70px;
 }
 .connect {
-  padding-top: 75px;
   width: 206px;
 }
 .connect-title {
@@ -227,8 +226,11 @@ img {
 .footer-item-addres-link:hover {
   color: var(--footer-second-text-color);
 }
-.bg-icon {
+.footer-icon {
   background-color: #44454e;
+}
+.footer-icon > svg {
+  fill: var(--svg-hover-color);
 }
 
 /*     !overlay */
@@ -300,6 +302,7 @@ img {
   height: 120px;
   align-items: center;
   justify-content: center;
+  background-color: var(--background-second-color);
 }
 .doing-icon {
 }
@@ -442,21 +445,24 @@ img {
 .clients-item {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-.clients-item:hover,
-.clients-item:focus {
-  border-color: #2196f3;
 }
 .client-item-link {
   width: 100%;
   height: 100%;
   align-items: center;
   justify-content: center;
+  color: var(--svg-first-color);
+  border-radius: 4px;
+  border: 1px solid var(--svg-first-color);
+}
+.client-item-link:hover,
+.client-item-link:focus {
+  border-color: var(--svg-hover-color2);
+  color: var(--svg-hover-color2);
 }
 
 .clients-icon {
+  fill: currentColor;
 }
 
 /* !portfolio.html */
